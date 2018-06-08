@@ -1,0 +1,13 @@
+name: EloSystem
+version: 1.0
+api: 3.0.0-ALPHA12
+main: Fludixx\Main
+author: Fludixx
+commands:
+  elo:
+    description: "EloSystem -> set view give"
+    aliases: [chelo, elo]
+permissions:
+  elosys.set:
+    description: "Gibt dir die Rechte Elo anzupassen"
+    default: op
