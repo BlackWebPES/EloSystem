@@ -5,8 +5,11 @@ main: Fludixx\Main
 author: Fludixx
 commands:
   elo:
-    description: "EloSystem -> set view give"
-    aliases: [chelo, elo]
+    description: "EloSystem -> set view give ranking"
+    aliases: [chelo, elo, e, elosystem]
+  ranking:
+    description: "EloSystem -> set view give ranking"
+    aliases: [rank, elorank, rk, platzierung]
 permissions:
   elosys.set:
     description: "Gibt dir die Rechte Elo anzupassen"
