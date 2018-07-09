@@ -253,13 +253,6 @@ class Main extends PluginBase implements Listener
     }
     
 }
-    public function onMove(PlayerMoveEvent $event) {
-        $player = $event->getPlayer();
-        $playername = $player->getName();
-        $elo = new Config("/cloud/elo/".$playername.".yml", Config::YAML);
-        $celo = $elo->get("elo");          
-        $player->sendPopup(f::GREEN . "Elo: " . f::GOLD . $celo);
-    }
     
     public function onDeath(PlayerDeathEvent $event){
         $loser = $event->getPlayer();
