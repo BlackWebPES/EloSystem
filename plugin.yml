@@ -1,6 +1,6 @@
 name: EloSystem
 version: 1.0
-api: 3.0.0-ALPHA12
+api: [3.0.0, 4.0.0]
 main: Fludixx\Main
 author: Fludixx
 commands:
